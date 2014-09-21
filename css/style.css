@@ -185,3 +185,57 @@
 .contact .container > div:last-child p{
 	margin-bottom: 5px;
 }
+
+/*
+	meet the team page
+*/
+
+.team{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.team .container{
+	padding-right: 0px;
+}
+
+.team .container > div{
+	border-top: 2px #e6e4e4 solid;
+	border-bottom: 2px #e6e4e4 solid;
+	padding: 30px 20px;
+}
+
+.team .row{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.team img{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.team img{
+		width: 200px;
+	}
+
+	.team .col-xs-3{
+		text-align:center;
+	}
+}
+
+.team span{
+	color: #10c6b6;
+	font-style: italic;
+	font-family: gotham-medium;
+	font-size: 1.2em;
+	padding-right: 2px;
+}
+
+.team p{
+	color: #f0f0f0;
+	line-height: 1.75;
+}
+
+
+
