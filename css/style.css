@@ -113,3 +113,13 @@
 #footer .container > div:last-child{
 	text-align: right;
 }
+
+/*
+	content
+*/
+
+#content{
+	width: 100%;
+	background-color: #404041;
+
+}
