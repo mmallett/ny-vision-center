@@ -121,5 +121,67 @@
 #content{
 	width: 100%;
 	background-color: #404041;
+}
 
+/*
+	contact page
+*/
+
+.contact{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contact .container{
+	padding-right: 0px;
+}
+
+.contact h2{
+	color: #10c6b6;
+	font-style: italic;
+	font-family: gotham-medium;
+	font-size: 1.2em;
+}
+
+.contact h3, .contact p{
+	color: #f0f0f0;
+}
+
+.contact .container > div{
+	padding: 30px 20px;
+}
+
+.contact .container > div:first-child{
+	border-top: 2px #e6e4e4 solid;
+	border-bottom: 2px #e6e4e4 solid;
+}
+
+.contact .container > div:first-child span{
+	font-family: gotham-medium;
+}
+
+.contact .container > div:last-child{
+	border-bottom: 2px #e6e4e4 solid;
+	text-align:center;
+}
+
+.contact .container > div:last-child h2{
+	text-align: left;
+}
+
+.contact .container > div:last-child > div{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.contact .container > div:last-child > div:last-child{
+	margin-bottom: 20px;
+}
+.contact .container > div:last-child h3{
+	margin-top: 10px;
+	font-family: gotham-bold;
+	font-size: 1em;
+}
+
+.contact .container > div:last-child p{
+	margin-bottom: 5px;
 }
