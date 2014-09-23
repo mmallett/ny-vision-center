@@ -237,5 +237,76 @@
 	line-height: 1.75;
 }
 
+/*
+	resources page
+*/
+
+.resources{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.resources .container{
+	padding-right: 0px;
+}
+
+.resources .container > div:first-child{
+	border-top: 2px #e6e4e4 solid;
+	border-bottom: 2px #e6e4e4 solid;
+	padding: 30px 20px;
+	margin-bottom: 50px;
+	color: #f0f0f0;
+}
+
+.resources .container > div:first-child > div:first-child{
+	color: #10c6bc;
+	font-family: gotham-medium;
+	font-style: italic;
+	padding-right: 10px;
+	float: left;
+	height: 100px;
+}
+
+.resources .container > div:first-child span{
+	font-style: italic;
+}
+
+.resources .resource{
+
+}
+
+.resources .resource > div{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resources .resource p{
+	color: #fefffd;
+}
+
+.resources .resource span{
+	color: #10c6b6;
+}
+
+.resource-div{
+	width:200px;
+	height:200px;
+	background-position: center center;
+	margin-bottom: 20px;
+}
+
+.eyesmart{
+	background-image: url(../img/eyesmart.png);
+	
+}
+
+.webmd{
+	background-image: url(../img/webmd.png);
+}
+
+.allaboutvision{
+	background-image: url(../img/allaboutvision.png);
+}
 
 
