@@ -379,4 +379,60 @@
 	text-decoration: none;	
 }
 
+/*
+	home page
+*/
 
+#myCarousel img{
+	width: 100%;
+}
+
+.carousel-indicators li{
+	width:18px;
+	height:18px;
+	background-image:url(../img/nyvisioncircle.png);
+	background-position:center center;
+	background-size:cover;
+
+	border:0px;
+	border-radius:0px;
+}
+
+.carousel-indicators .active{
+	width:18px;
+	height:18px;
+	background-image:url(../img/nyvisioncircle-active.png);
+	background-position:center center;
+	background-size:cover;
+	background-color:rgba(0,0,0,0);
+
+	border:0px;
+	border-radius:0px;
+
+	margin: 1px;
+}
+
+.home .container{
+	padding-right: 0px;
+	padding-bottom: 80px;
+
+	color: #f0f0f0;
+}
+
+.home .container > div:first-child{
+	border-top: 2px #e6e4e4 solid;
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+.home .home-column p{
+	line-height: 1.75;
+}
+
+.home .home-column p span{
+	color: #10c6b6;
+	font-style:italic;
+	font-family: gotham-medium;
+	font-size: 1.2em;
+	padding-right: 5px;
+}
