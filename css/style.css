@@ -310,4 +310,73 @@
 	background-image: url(../img/allaboutvision.png);
 }
 
+/*
+	services page
+*/
+
+.services img{
+	width:100%;
+	margin-bottom: 30px;
+}
+
+.services{
+	color: #f0f0f0;
+}
+
+.services .container{
+	padding-right: 0px;
+	/*padding-top: 60px;*/
+	padding-bottom: 60px;
+}
+
+.services .container > div:first-child{
+	border-top: 2px #e6e4e4 solid;
+	padding: 30px 0px;
+}
+
+.services .services-column:first-child{
+	/*padding-left: 0px;	*/
+}
+
+.services .services-column:last-child{
+	/*padding-right: 0px;	*/
+}	
+
+.services .services-column div{
+	margin-bottom: 40px;
+}
+
+.services .services-column p:first-child{
+	line-height: 1.75;
+
+	margin:0px;
+}
+
+.services .services-column p:first-child span{
+	color: #10c6b6;
+	font-style:italic;
+	font-family: gotham-medium;
+	font-size: 1.2em;
+	padding-right: 5px;
+}
+
+.services .services-column p:last-child{
+	margin-top: 5px;
+	line-height: 1.75;
+}
+
+.services .services-column p:last-child a{
+	color:white;
+	background-color:#10c6b6;
+	text-decoration: none;
+	font-family:gotham-medium;
+	padding: 3px 10px;
+	border-radius: 8px;
+}
+.services .services-column p:last-child a:hover{
+	color:white;
+	background-color:#10c6b6;
+	text-decoration: none;	
+}
+
 
