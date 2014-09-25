@@ -8,11 +8,7 @@ $(document).ready(function(){
 
 function loadTemplate(template, target){
 
-	$.get(template, function(source){
-
-		var template = Handlebars.compile(source);
-
-		var html = template({});
+	$.get(template, function(html){
 
 		$(target).html(html);
 
