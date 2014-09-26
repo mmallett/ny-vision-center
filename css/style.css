@@ -181,6 +181,9 @@
 	font-family: gotham-bold;
 	font-size: 1em;
 }
+.contact .container > div:last-child a:hover{
+	text-decoration:none;
+}
 
 .contact .container > div:last-child p{
 	margin-bottom: 5px;
