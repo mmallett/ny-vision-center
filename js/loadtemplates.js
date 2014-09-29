@@ -26,6 +26,7 @@ function loadTemplate(template, target, callback){
 }
 
 var BASE_NAV_PADDING = 20;
+var LOGO_IMAGE_HEIGHT = 114;
 
 function dynamicHeader(){
 	// find the height of navbar from tallest a
@@ -43,11 +44,13 @@ function dynamicHeader(){
 	})
 
 	// do the same with the logo
+
 	var imgPadding = 
-		(($('.logo-area .row').height() - $('.logo-area img').height()) /2).toString();
-		console.log(imgPadding);
-		console.log(imgPadding + 'px');
-	// $('.logo-area a').parent().css('padding-top', imgPadding + 'px');
+		(($('.logo-area .row').height() - LOGO_IMAGE_HEIGHT) /2).toString();
+		console.log($('.logo-area .row').height());
+		// console.log(imgPadding);
+		// console.log(imgPadding + 'px');
+	$('.logo-area a').parent().css('padding-top', imgPadding + 'px');
 
 
 }
